@@ -1,0 +1,35 @@
+{
+  "name": "webkit-sass",
+  "description": "webkit sass material of scss version.",
+  "main": [
+    "dist/webkit-sass.css",
+    "dist/webkit-sass.scss"
+  ],
+  "authors": [
+    "fei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "scss",
+    "webkit",
+    "css",
+    "oocss"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-css-material",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "webkit-sass-reset": "afeiship/webkit-sass-reset",
+    "webkit-sass-generators": "afeiship/webkit-sass-generators",
+    "webkit-sass-flex-grid": "afeiship/webkit-sass-flex-grid",
+    "webkit-sass-functions": "afeiship/webkit-sass-functions",
+    "webkit-sass-mixins": "afeiship/webkit-sass-mixins",
+    "webkit-sassui-short-name": "afeiship/webkit-sassui-short-name"
+  }
+}
